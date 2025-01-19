@@ -15,12 +15,12 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
-import './pages/formulário1.pages'
-import './pages/formulário2.pages'
-import './pages/formulario3.pages'
-import './pages/formulário4.pages'
-import './pages/formulário5.pages'
-import './pages/erroFormulario1.pages'
+import './pages/EnterVehicleData.pages'
+import './pages/EnterInsurantDate.pages'
+import './pages/EnterProductDate.pages'
+import './pages/SelectPriceOption.pages'
+import './pages/SendQAuot.pages'
+import './pages/ErroEnterVehicleDate.pages'
 
 Cypress.on('uncaught:exception', (err, runnable) => {
     // Retorne false para evitar que o Cypress falhe o teste
