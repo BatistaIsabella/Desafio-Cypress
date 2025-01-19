@@ -1,8 +1,6 @@
 const INPUT_FIRST_NAME = '#firstname'
 const INPUT_LAST_NAME = '#lastname'
 const INPUT_DATE_BIRT = '#birthdate'
-//const INPUT_GENDER = ':nth-child(4) > .group'
-//const INPUT_STREET_ADDRESS = '#streetaddress'
 const INPUT_COUNTRY = '#country'
 const INPUT_ZIP_CODE = '#zipcode'
 const INPUT_CITY = '#city'
