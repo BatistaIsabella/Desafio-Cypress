@@ -26,4 +26,10 @@ And('o usuario preenche as informacoes do form 5', () => {
     cy.quintoForm()
 })
 
-Then('o usuario recebe uma mensagem de envio concluido', () => {})
+Then('o usuario recebe uma mensagem de envio concluido', () => {
+    cy.validarMensagemEnvio()
+})
+
+And('o usuario confirma o envio do formulario', () => {
+    cy.confirmaEnvio()
+})

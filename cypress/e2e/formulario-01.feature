@@ -11,3 +11,4 @@ Funcionalidade: teste Formulario no portal
         E o usuario preenche as informacoes do form 4
         E o usuario preenche as informacoes do form 5
         Então o usuario recebe uma mensagem de envio concluido
+        E o usuario confirma o envio do formulario

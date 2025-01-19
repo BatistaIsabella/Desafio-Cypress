@@ -8,6 +8,8 @@ const INPUT_LISTPRINCE = '#listprice'
 const INPUT_LICENSE = '#licenseplatenumber'
 const INPUT_ANNUAL = '#annualmileage'
 const BTN_NEXT = '#nextenterinsurantdata'
+const MENSAGEM_ERRO = '.invalid > .error'
+
 
 Cypress.Commands.add('entrarAutomovel', () => {
     cy.get(ENTRAR_AUTO).click()
@@ -21,4 +23,6 @@ Cypress.Commands.add('erroPrimeiroForm', () => {
     cy.get(INPUT_FUEL).select('Gas').click
     cy.get(INPUT_LISTPRINCE).type('10000')
     cy.get(INPUT_LICENSE).type('8547000000000000')
+    cy.get(MENSAGEM_ERRO).should('contain', 'Must be under 10 characters');
+    
 })

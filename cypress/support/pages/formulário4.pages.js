@@ -5,3 +5,4 @@ Cypress.Commands.add('quartoForm', () => {
     cy.get(SELECTION_OPTION).click()
     cy.get(BTN_NEXT).click()
 })
+
