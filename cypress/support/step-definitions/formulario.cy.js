@@ -1,4 +1,4 @@
-Given('o usuario acessa o portal Tricentis', () => {
+Given('que o usuario acessa o portal Tricentis', () => {
     cy.visit('/app.php')
 })
 
